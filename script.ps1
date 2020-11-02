@@ -1,0 +1,1 @@
+docker run -it -p 3000:3000 -v /app/node_modules -v /c/Users/justi/docker-tutorial/frontend:/app -e CHOKIDAR_USEPOLLING=true e1b646a5a21f
